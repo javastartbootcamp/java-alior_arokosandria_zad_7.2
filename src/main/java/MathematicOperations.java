@@ -57,7 +57,7 @@ public class MathematicOperations {
     }
 
     public static void minNumbersView(List<Integer> numbersList) {
-        System.out.println("Najmniejsza liczba w liście to : " + minNumbers(numbersList));
+        System.out.println("Najmniejsza liczba w liście to " + minNumbers(numbersList));
     }
 
     public static int maxNumbers(List<Integer> numbersList) {
@@ -72,7 +72,7 @@ public class MathematicOperations {
     }
 
     public static void maxNumbersView(List<Integer> numbersList) {
-        System.out.println("Największa liczba w liście to : " + maxNumbers(numbersList));
+        System.out.println("Największa liczba w liście to " + maxNumbers(numbersList));
     }
 
     public static boolean checkNumbersList(List<Integer> numbersList) {
