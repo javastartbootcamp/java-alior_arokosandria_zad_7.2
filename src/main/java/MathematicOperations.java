@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -45,15 +46,7 @@ public class MathematicOperations {
     }
 
     public static int minNumbers(List<Integer> numbersList) {
-        int min = 0;
-        for (Integer integer : numbersList) {
-            min = numbersList.get(0);
-            if (integer < min) {
-                min = integer;
-            }
-        }
-
-        return min;
+        return Collections.min(numbersList);
     }
 
     public static void minNumbersView(List<Integer> numbersList) {
@@ -61,14 +54,7 @@ public class MathematicOperations {
     }
 
     public static int maxNumbers(List<Integer> numbersList) {
-        int max = 0;
-        for (Integer integer : numbersList) {
-            if (integer > max) {
-                max = integer;
-            }
-        }
-
-        return max;
+        return Collections.max(numbersList);
     }
 
     public static void maxNumbersView(List<Integer> numbersList) {
