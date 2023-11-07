@@ -54,7 +54,7 @@ public class MathematicOperations {
     }
 
     public static boolean checkNumbersList(List<Integer> numbersList) {
-        if (numbersList.size() == 0) {
+        if (numbersList.isEmpty()) {
             System.out.println("Lista jest pusta, brak wyników");
             return false;
         }
