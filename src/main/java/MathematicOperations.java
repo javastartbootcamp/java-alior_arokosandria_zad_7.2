@@ -45,20 +45,12 @@ public class MathematicOperations {
         System.out.println();
     }
 
-    public static int minNumbers(List<Integer> numbersList) {
-        return Collections.min(numbersList);
-    }
-
     public static void minNumbersView(List<Integer> numbersList) {
-        System.out.println("Najmniejsza liczba w liście to " + minNumbers(numbersList));
-    }
-
-    public static int maxNumbers(List<Integer> numbersList) {
-        return Collections.max(numbersList);
+        System.out.println("Najmniejsza liczba w liście to " + Collections.min(numbersList));
     }
 
     public static void maxNumbersView(List<Integer> numbersList) {
-        System.out.println("Największa liczba w liście to " + maxNumbers(numbersList));
+        System.out.println("Największa liczba w liście to " + Collections.max(numbersList));
     }
 
     public static boolean checkNumbersList(List<Integer> numbersList) {
